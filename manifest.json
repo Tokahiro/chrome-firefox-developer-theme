@@ -1,0 +1,47 @@
+{
+   "description": "Firefox Developer Edition Theme for Google Chrome",
+   "manifest_version": 2,
+   "name": "Firefox Developer Edition Theme",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 249, 249, 250 ],
+         "button_background": [ 0, 0, 0, 0],
+         "frame": [ 0, 0, 0 ],
+         "frame_inactive": [ 0, 0, 0],
+         "frame_incognito": [ 0, 0, 0],
+         "frame_incognito_inactive": [ 0, 0, 0],
+         "ntp_background": [ 58, 58, 58 ],
+         "ntp_text": [ 249, 249, 250 ],
+         "tab_background_text": [ 176, 182, 177 ],
+         "tab_text": [ 249, 249, 250 ],
+         "toolbar": [ 0, 0, 0 ]
+      },
+      "images": {
+         "theme_frame": "images/frame.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "icons": {
+         "16": "images/icon16.png",
+         "32": "images/icon32.png",
+         "48": "images/icon48.png",
+         "128": "images/icon128.png"
+      },
+      "browser_action": {
+         "default_icon": {
+            "16": "images/icon16.png",
+            "32": "images/icon32.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+         }
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "repeat"
+      },
+      "tints": {
+         "buttons": [ 0, 0, 0.88 ]
+      }
+   },
+   "version": "2"
+}
